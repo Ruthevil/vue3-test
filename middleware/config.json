@@ -1,0 +1,9 @@
+{
+    "appName": "旅游大数据可视化平台",
+    "contextPath": "/ly",
+    "frontendDir": null,
+    "userName": "系统管理员",
+    "userId": "admin",
+    "middlewareIp": "127.0.0.1",
+    "middlewarePort": "5000"
+}

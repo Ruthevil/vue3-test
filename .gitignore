@@ -1,0 +1,7 @@
+.idea
+frontend/node_modules
+frontend/package-lock.json
+middleware/node_modules
+middleware/package-lock.json
+middleware/build
+middleware/logs

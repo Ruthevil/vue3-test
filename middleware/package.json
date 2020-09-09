@@ -1,0 +1,29 @@
+{
+    "name": "node-koa",
+    "version": "1.0.0",
+    "description": "nodeJs (koa)",
+    "main": "src/index.js",
+    "keywords": [],
+    "author": "bidding",
+    "license": "ISC",
+    "scripts": {
+        "m-dev": "concurrently \"webpack --env.production=false --watch --config webpack.config.js\" \"node-dev build/server.bundle.js\"",
+        "m-build": "webpack --env.production=true --config webpack.config.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.11.4",
+        "koa": "^2.7.0",
+        "koa-router": "^9.4.0",
+        "lodash": "^4.17.20",
+        "log4js": "^6.3.0"
+    },
+    "devDependencies": {
+        "babel-loader": "^8.1.0",
+        "concurrently": "^5.3.0",
+        "node-dev": "^5.0.0",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-node-externals": "^2.5.1"
+    }
+}
