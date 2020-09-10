@@ -2,8 +2,8 @@
     "name": "vue3-vite-frontend",
     "version": "0.0.0",
     "scripts": {
-        "f-dev": "vite --mode development --config vite.config.js",
-        "f-build": "vite build --mode production"
+        "f-dev": "vite --mode development --debug",
+        "f-build": "vite build --mode production --debug"
     },
     "dependencies": {
         "axios": "^0.20.0",
