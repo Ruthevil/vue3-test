@@ -11,3 +11,15 @@ vite.config.js文件的具体配置参考[源码config.ts](https://github.com/vi
 
 #### vite源码
 [vite源码](https://github.com/vitejs/vite)
+
+
+#### question
++ 1、Alias in css don't work ? #650
+```
+<style lang="stylus">
+    @import "/@/common/common.css.styl"
+    
+</style>
+
+```
++ 2、after build, the static javasript resource is not import in index.html? #796
